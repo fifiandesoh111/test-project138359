@@ -1,0 +1,99 @@
+body
+{
+	margin:auto ;
+	width:50% ;
+	border:2px solid pink ;
+	padding:20px ;
+}
+#headerParent{
+	border: 2px solid pink;
+	display: flex;
+	background: white;
+}
+#footerParent{
+	border: ;
+	display: flex;
+	background-color: white;
+}
+#footerChild1{
+	width:100% ;
+	margin:auto ;
+	padding:20px ;
+	text-align:center ;
+}
+#Logo {
+	display: block;
+	margin: auto;
+	width: 80%;
+	border: 2px dotted purple;
+	border-radius: 20px;
+}
+#child1{
+	width:20%;
+	margin: auto;
+	padding: 10px;
+}
+#child2{
+	width:80%;
+	margin: auto;
+	padding: 10px;
+}
+#child2child1{
+	width:95% ;
+	margin: auto;
+	text-align: center;
+}
+#indexHeaderText
+{
+	color:purple;
+}
+#indexSloganText 
+{
+	color:purple;
+}
+#nav ul
+{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: white;
+}
+#nav list-style-type{
+	float: left;
+}
+#nav li auto{
+	display:block;
+	color: purple;
+	text-align: center;
+	padding: 16px;
+	text-decoration: none;
+	font-weight: bold;
+}
+#nav li a:hover {
+	background-color: purple;
+}
+#sectionDiv1{
+	width: 100%;
+	margin: auto;
+	text-align: justify;
+	text-justify: inter-word;
+}
+#sectionDiv2
+{
+	width: 100%;
+	margin: auto;
+	text-align: justify;
+	text-justify: inter-word;
+}
+#LashCosmeticsListIndexPage
+{
+	display: block;
+	margin: auto;
+	width: 25%;
+	border: 1px dotted purple;
+	border-radius: 10px;
+}
+#dlIndexPage{
+	color: purple;
+}
