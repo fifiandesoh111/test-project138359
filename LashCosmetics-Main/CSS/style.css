@@ -1,0 +1,204 @@
+body
+{
+	margin: auto;
+	width:95% ;
+	padding:30px ;
+	background-color: black;
+	background-image: url(imgs/CompanyLogo.jpg);
+}
+#headerParent{
+	border: 2px solid pink;
+	display:flex ;
+	background:black;
+}
+#footerParent{
+	border: ;
+	display: flex;
+	background-color:black;
+}
+#footerChild1{
+	width:80% ;
+	margin:auto ;
+	padding:20px ;
+	text-align:center ;
+}
+#Logo {
+	display: inline-block;
+	margin: 0;
+	width: 50%;
+	border: 1px dotted purple;
+	border-radius: 3px;
+}
+#child1{
+	width:20%;
+	margin: auto;
+	padding: 10px;
+}
+#child2{
+	width:80%;
+	margin: auto;
+	padding: 10px;
+}
+#child2child1{
+	width:80% ;
+	margin: auto;
+	margin-right: 30px;
+	text-align: left;
+	justify-content: left;
+	float: left;
+}
+#indexHeaderText
+{
+	color:hotpink;
+	margin-inline: ;
+	margin-right: 30px;
+	text-justify: ;
+	font-family: arial;
+
+}
+#indexSloganText 
+{
+	color:hotpink;
+	text-justify: ;
+	margin-left: 10PX;
+}
+#nav ul
+{
+	list-style-type:none;
+	align-items: center;
+	padding:10px 0px;
+	display: flex;
+	justify-content: center;
+}
+#nav ul li{
+	list-style: none;
+	margin-left: 62px;
+	font-size: 14px;
+	font-weight: bold;
+	display: flex;
+	float: left;
+}
+#nav li auto{
+	display:block;
+	color: purple;
+	text-align: center;
+	padding: 20px;
+	text-decoration: none;
+	font-weight: bold;
+}
+#nav li a:hover
+{
+	background-color: white;
+}
+#sectionDiv1{
+	width: 100%;
+	margin: auto;
+	text-align: justify;
+	text-justify: inter-word;
+}
+#sectionDiv2
+{
+	width: 100%;
+	margin: auto;
+	text-align: justify;
+	text-justify: inter-word;
+}
+#LashCosmeticsListIndexPage
+{
+	display: block;
+	margin: inherit;
+	width: 25%;
+	border: 2px dotted purple;
+	border-radius: 10px;
+}
+#dlIndexPage{
+	color: purple;
+}
+#headerParent2 
+{
+	padding: 0;
+	margin: 0;
+	font-family: sans-serif;
+}
+#sign-up-form
+{
+	width:80% ;
+	background: white;
+	margin-left: 60px;
+	background-position: center;
+	text-align: center;
+	padding:20px;
+	background-color: black;
+}
+#sign-up-form h1
+{
+	color:hotpink;
+	margin-bottom: 30px;
+
+}
+#input-box
+{
+	border-radius: 20px;
+	padding:10px ;
+	margin: 10px 0;
+	width: 300px;
+	border: 1px solid white;
+	outline: none ;
+}
+#button
+{
+	color: hotpink;
+	width: 100%;
+	padding: 10px;
+	border-radius: 20px;
+	font-size: 15px;
+	margin: 10px 0;
+	border: none;
+	outline:none;
+	cursor: pointer;
+}
+#signup-btn
+{
+	background-color: white;
+	width: 100px;
+}
+#hr
+{
+	margin-top: 20px;
+	width: 50%;
+
+}
+#booking-form
+{
+	background-color: black;
+	padding: 20px;
+	border-radius: 10px;
+	max-width: 500px;
+	width: 80%;
+	margin: 0 auto;
+}
+#bookingForm{
+	display: flex;
+	flex-direction: column;
+}
+#bookingFormInput{
+	padding: 8px;
+	border: 1px solid white;
+	border-radius: 5px;
+}
+#bookingFormButton{
+	margin-top: 10px;
+	padding: 10px;
+	background-color: hotpink;
+	color: white;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+}
+#bookingFormButton:hover{
+	background-color: hotpink ;
+}
+
+
+
+
